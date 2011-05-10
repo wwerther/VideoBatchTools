@@ -1,0 +1,20 @@
+D:\>"c:\Program Files (x86)\MKVtoolnix\mkvmerge.exe" -i "d:\Video\Movie\Movie.mkv"
+Datei 'd:\Video\Lord of War\Lord of War.mkv': Container: Matroska
+Track ID 1: video (V_MPEG2)
+Track ID 2: audio (A_AC3)
+Track ID 3: audio (A_AC3)
+Track ID 4: audio (A_AC3)
+Track ID 5: subtitles (S_VOBSUB)
+Track ID 6: subtitles (S_VOBSUB)
+Track ID 7: subtitles (S_VOBSUB)
+Track ID 8: subtitles (S_VOBSUB)
+Kapitel: 28 Einträge
+
+http://www.makemkv.com/developers/usage.txt
+
+
+Convert a Folder
+"c:\Program Files (x86)\MakeMKV\makemkvcon64.exe" mkv --decrypt --progress=-same --noscan -r file:d:\temp\inmovie\VIDEO_TS all d:\video\outmovie
+
+RIP a Disk (including decrypt)
+"c:\Program Files (x86)\MakeMKV\makemkvcon64.exe" mkv --decrypt --progress=-same --noscan -r disc:0 all d:\video\outdir
