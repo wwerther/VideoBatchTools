@@ -168,7 +168,7 @@ function scanTitle($FilenameIn,$FilenameOut) {
 function Encode($FilenameIn,$DestPath) {
 
     $Basename = [system.io.path]::GetFilenameWithoutExtension($FilenameIn)
-	$FilenameOut = $DestPath + $Basename + '.mkv'
+	$FilenameOut = $DestPath + '\' + $Basename + '.mkv'
 	Write-Host "Encoding $FilenameIn to $FilenameOut"
     if (Test-Path -PathType 'Leaf' $FilenameOut) {
         Write-Host "- Output Videofile already exists. Skipping"
